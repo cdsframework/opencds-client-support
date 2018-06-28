@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ns="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:dssWsdl="http://www.omg.org/spec/CDSS/201105/dssWsdl" xmlns:dss="http://www.omg.org/spec/CDSS/201105/dss" name="DSS_WSDL" targetNamespace="http://www.omg.org/spec/CDSS/201105/dssWsdl">
-  <wsdl:import location="http://cds.hln.com/opencds-decision-support-service/evaluate?wsdl=baseWsdl/dssBaseComponents.wsdl" namespace="http://www.omg.org/spec/CDSS/201105/dssWsdl">
+  <wsdl:import location="dssBaseComponents.wsdl" namespace="http://www.omg.org/spec/CDSS/201105/dssWsdl">
     </wsdl:import>
   <wsdl:portType name="MetadataDiscovery">
 <wsdl:documentation>The MetadataDiscovery Interface enables the identification of service capabilities.</wsdl:documentation>
