@@ -3,10 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.cdsframework</groupId>
-    <artifactId>opencds-support-client</artifactId>
+    <artifactId>opencds-client-support</artifactId>
     <packaging>jar</packaging>
-    <name>opencds-support-client</name>
-    <version>1.0.3</version>
+    <name>opencds-client-support</name>
+    <version>2.0.0-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
